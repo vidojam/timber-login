@@ -1,0 +1,26 @@
+:root {
+  --color-white: #ffffff;
+  --color-gold: rgb(216, 175, 39);
+  --opacity: 0.68;
+}
+
+
+body {
+
+  background-image: url("/public/images/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background: cover;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-white);
+}
+
+.login-container {
+  background-color: var(--color-white)
+}
